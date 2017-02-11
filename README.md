@@ -1,2 +1,2 @@
-# AOI-website
-This is the redesign of the Art Of Illusion website
+# AoI-website
+This is the redesign of the Art of Illusion website
