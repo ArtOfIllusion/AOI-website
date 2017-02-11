@@ -1,0 +1,157 @@
+<h1>Frequently Asked Questions</h1>
+
+<h3>Running Art of Illusion</h3>
+<div id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="card">
+        <div class="card-header" role="tab" id="headingOne">
+            <h5 class="mb-0">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    I'm getting errors trying to download the application and/or documentation.
+                </a>
+            </h5>
+        </div>
+        <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+            <div class="card-block">
+                Unfortunately, the SourceForge web servers can be very flaky at times, especially when accessed through a slow network connection. This may cause downloads to stop before the file has been fully sent. If you wait a little while then try again, you can usually get it to download correctly. Also, it helps to use a web browser (such as Firefox) that allows you to resume interrupted downloads. That way, if the download stops too soon, you can simply hit the 'Resume' button to continue downloading from where it stopped.
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" role="tab" id="headingTwo">
+            <h5 class="mb-0">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    How do I run Art of Illusion?
+                </a>
+            </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="card-block">
+                Follow the instructions in the documentation.
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" role="tab" id="headingThree">
+            <h5 class="mb-0">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    When I launch Art of Illusion, I see the splash screen, then it freezes or crashes. What's wrong?
+                </a>
+            </h5>
+        </div>
+        <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="card-block">
+                This is most likely caused by a bug in a video driver. You should first try upgrading your video drivers to the latest version, which may fix the problem. If it still doesn't work, you can disable OpenGL rendering by removing the file jogl.jar from the Art of Illusion install directory. This will cause it to fall back to the software renderer which should fix the problem, although interactive rendering will be somewhat slower.
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" role="tab" id="headingFour">
+            <h5 class="mb-0">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    How do I get rid of those annoying "Out of memory" exceptions?
+                </a>
+            </h5>
+        </div>
+        <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+            <div class="card-block">
+                When you launch any Java program, you must specify its "maximum heap size"; that is, the maximum amount of memory it is allowed to use. This is done with the -Xmx command line flag. For example, if you specify -Xmx256m on the command line when running it, it can use up to 256 MB of memory. If you do not include the -Xmx flag (or if you run it by double-clicking ArtOfIllusion.jar), the maximum heap size defaults to 64 MB.
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" role="tab" id="headingFive">
+            <h5 class="mb-0">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    When I start Art of Illusion, it tells me, "Unable to locate Plugins directory." What is wrong?
+                </a>
+            </h5>
+        </div>
+        <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
+            <div class="card-block">
+                The folder containing ArtOfIllusion.jar should also contain a folder called Plugins. If you have moved or renamed that folder, it will not be able to find it. Also, make sure that you are launching Art of Illusion exactly as described on the Downloads page. In particular, be sure to cd to the ArtOfIllusion directory before executing the java command.
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+<h3>Using Art of Illusion</h3>
+<div id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="card">
+        <div class="card-header" role="tab" id="headingSix">
+            <h5 class="mb-0">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                    How do I create a sphere?
+                </a>
+            </h5>
+        </div>
+
+        <div id="collapseSix" class="collapse show" role="tabpanel" aria-labelledby="headingSix">
+            <div class="card-block">
+                Click on the green sphere at the top left of the main screen, then drag the mouse with the left button depressed in any of the four white views. Release the mouse button and there is the sphere.
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" role="tab" id="headingSeven">
+            <h5 class="mb-0">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                    How do I render my scene?
+                </a>
+            </h5>
+        </div>
+        <div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven">
+            <div class="card-block">
+                Select the menu option "Scene -> Render Scene" or just press control+R on your keyboard. Click on the button labeled "OK" in the dialog box that appears. When the render is finished, you can save your picture.
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" role="tab" id="headingEight">
+            <h5 class="mb-0">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                    Why do I sometimes get errors when creating or rendering boolean objects?
+                </a>
+            </h5>
+        </div>
+        <div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight">
+            <div class="card-block">
+                There are some known flaws in the algorithm which Art of Illusion uses to calculate the surfaces of boolean objects. Eventually, I plan to rewrite it to use a different algorithm which does not have those flaws. That will be a major project, however, so it may not happen for a while.<br>The problems occur when the two objects have faces which are exactly flush with each other. To work around them, make sure that no face of one object lies exactly on top of a face of the other object. For example, if you are taking the difference between two objects, make sure the object you are subtracting extends slightly outside the object you are subtracting it from.<br>Boolean modelling also works better if you do not use deeply nested boolean operations. Instead, create the first boolean object, convert it to a triangle mesh, and then use that mesh as the input to the second operation.
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+<h3>Miscellaneous Questions</h3>
+<div id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="card">
+        <div class="card-header" role="tab" id="headingNine">
+            <h5 class="mb-0">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                    What is a JVM?
+                </a>
+            </h5>
+        </div>
+
+        <div id="collapseNine" class="collapse show" role="tabpanel" aria-labelledby="headingNine">
+            <div class="card-block">
+                A Java Virtual Machine (JVM) is a program running in your computer that emulates another machine: an imaginary machine designed to run programs written in Java. Because Art of Illusion is written in Java, it needs a JVM to run on. Sun provides JVMs for Windows, Linux, and Solaris. JVMs for other operating systems are provided by the OS manufacturers.
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" role="tab" id="headingTen">
+            <h5 class="mb-0">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                    I would like to translate Art of Illusion into another language. How can I do it?
+                </a>
+            </h5>
+        </div>
+        <div id="collapseTen" class="collapse" role="tabpanel" aria-labelledby="headingTen">
+            <div class="card-block">
+                Start by downloading the source code. You will find a file called artofillusion.properties. This is a Java Properties file. It contains all of the localized text in the program as a list of key=value pairs. Create a new version of this file, in which all the property values have been translated into the target language, and send it to me.<br>Note that this file must use the ISO 8859-1 (also known as ISO Latin-1) character encoding, so be sure to use a text editor that lets you specify the character encoding.
+            </div>
+        </div>
+    </div>
+</div>
