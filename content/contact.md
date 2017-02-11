@@ -12,7 +12,7 @@ You can talk to us and get help on the [forums](https://sourceforge.net/p/aoi/di
 ### Documentation
 
 * [Julian MacDonald](mailto:macdonaldj@users.sourceforge.net)
-* Rick van der Meiden
+* [Rick van der Meiden](vdmeiden@users.sourceforge.net)
 * Duncan Hawes
 
 ### Web
