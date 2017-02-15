@@ -13,5 +13,4 @@ Are you interested in contributing to this project? Listed below are many possib
 ## Non-programming Projects
 
 * Write a tutorial demonstrating how to use one or more features of the program.
-* Create some interesting textures or materials, which can be added to the collection on the Art of Illusion Wiki.
 * Create pictures that can be posted on the web site as examples of what can be done with Art of Illusion.

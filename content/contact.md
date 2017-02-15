@@ -7,12 +7,12 @@ You can talk to us and get help on the [forums](https://sourceforge.net/p/aoi/di
 ### Development
 
 * [Peter Eastman](mailto:peastman@users.sourceforge.net)
-* [Luke S](https://sourceforge.net/u/ljsails/profile/)
+* [Luke S](mailto:ljsails@users.sourceforge.net)
 
 ### Documentation
 
 * [Julian MacDonald](mailto:macdonaldj@users.sourceforge.net)
-* [Rick van der Meiden](vdmeiden@users.sourceforge.net)
+* [Rick van der Meiden](mailto:vdmeiden@users.sourceforge.net)
 * Duncan Hawes
 
 ### Web
