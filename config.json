@@ -1,0 +1,77 @@
+{
+    "blended_version": "6.0.0",
+    "title": "Art of Illusion",
+    "subtitle": "Open Source 3D Modeling and Rendering Studio",
+    "description": "",
+    "language": "en-US",
+    "theme": "blended-software",
+    "build_home": true,
+    "build_posts": true,
+    "build_pages": true,
+    "build_authors": false,
+    "theme_params": {
+        "homepage_section_4": {
+            "content": "Art of Illusion and it's plugins are licensed under the GPL 2.0 open source license or later at your choice . This means that you are free to download, edit, and use the source code for what ever you want!",
+            "image": "GPLv3_Logo.svg.png",
+            "title": "Open Source"
+        },
+        "header_buttons": [
+            {
+                "color": "danger",
+                "icon": "fa-download",
+                "link": "index.html#download",
+                "title": "Download Latest"
+            },
+            {
+                "color": "primary",
+                "icon": "fa-book",
+                "link": "release_notes.html",
+                "title": "Release Notes"
+            }
+        ],
+        "homepage_section_3": {
+            "content": "Art of Illusion is an excellent application to use in schools because it's simple to understand interface making getting started really easy.",
+            "image": "object.png",
+            "title": "Awesome for Education"
+        },
+        "homepage_section_2": {
+            "content": "Art of Illusion will run on any computer that supports Java 5 or later. This includes Windows, macOS and Linux.",
+            "image": "win-mac-lin.png",
+            "title": "Cross Platform"
+        },
+        "homepage_section_1": {
+            "content": "Art of Illusion is a free, open source, 3D modelling and rendering studio. Many of its capabilities rival those found in commercial programs. Highlights include subdivision surface based modelling tools, skeleton based animation, and a graphical language for designing procedural textures and materials.",
+            "image": "screenshot1.jpg",
+            "title": "Easy, Free, Open Source"
+        },
+        "download_buttons": [
+            {
+                "color": "danger",
+                "icon": "fa-download",
+                "link": "https://sourceforge.net/projects/aoi/files/ArtOfIllusion/3.0.3/ArtOfIllusion303-Windows.exe/download",
+                "title": "Windows"
+            },
+            {
+                "color": "warning",
+                "icon": "fa-download",
+                "link": "https://sourceforge.net/projects/aoi/files/ArtOfIllusion/3.0.3/ArtOfIllusion303-Mac.dmg/download",
+                "title": "macOS"
+            },
+            {
+                "color": "success",
+                "icon": "fa-download",
+                "link": "https://sourceforge.net/projects/aoi/files/ArtOfIllusion/3.0.3/ArtOfIllusion303-Linux.zip/download",
+                "title": "Linux"
+            },
+            {
+                "color": "primary",
+                "icon": "fa-code",
+                "link": "https://github.com/ArtOfIllusion/ArtOfIllusion",
+                "title": "Source Code"
+            }
+        ],
+        "version": "3.0.3",
+        "logo": "aoi-logo1.png",
+        "header_image": "fish.jpg"
+    }
+}

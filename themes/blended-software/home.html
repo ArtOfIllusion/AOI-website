@@ -1,0 +1,114 @@
+{% include "header.html" %}
+{% if siteinfo['theme_params']['header_image'] %}
+    <div class="img-header" style="background-image: url({{ root }}media/{{ siteinfo['theme_params']['header_image'] }});">
+{% else %}
+    <div class="img-header" style="background-image: url({{ root }}assets/img/ffm-bk.jpg);">
+{% endif %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-12 content">
+                {% if siteinfo['theme_params']['logo'] %}
+                    <img src="{{ root }}media/{{ siteinfo['theme_params']['logo'] }}" class="header-logo">
+                {% else %}
+                    <img src="{{ root }}assets/img/logo.jpg" class="header-logo">
+                {% endif %}
+
+                {% if siteinfo['theme_params']['header_buttons'] %}
+                    <div class="row header-buttons">
+                        {% for button in siteinfo['theme_params']['header_buttons'] %}
+                            <div class="col-md-4"><a href="{{ root }}{{ button['link'] }}" class="btn btn-{{ button['color'] }}"><i class="fa {{ button['icon'] }}" aria-hidden="true"></i> {{ button['title'] }}</a></div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 page-content">
+                {% if siteinfo['theme_params']['homepage_section_1']['image'] %}
+                    <img class="img-fluid" src="{{ root }}media/{{ siteinfo['theme_params']['homepage_section_1']['image'] }}">
+                {% else %}
+                    <img class="img-fluid" src="{{ root }}assets/img/900-700.jpg">
+                {% endif %}
+            </div>
+            <div class="col-md-7 page-content-md offset-md-1">
+                <h2>{{ siteinfo['theme_params']['homepage_section_1']['title'] }}</h2>
+                <p>{{ siteinfo['theme_params']['homepage_section_1']['content'] }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 page-content-md">
+                <h2>{{ siteinfo['theme_params']['homepage_section_2']['title'] }}</h2>
+                <p>{{ siteinfo['theme_params']['homepage_section_2']['content'] }}</p>
+            </div>
+            <div class="col-md-4 page-content offset-md-2">
+                {% if siteinfo['theme_params']['homepage_section_2']['image'] %}
+                    <img class="img-fluid" src="{{ root }}media/{{ siteinfo['theme_params']['homepage_section_2']['image'] }}">
+                {% else %}
+                    <img class="img-fluid" src="{{ root }}assets/img/900-700.jpg">
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 page-content">
+                {% if siteinfo['theme_params']['homepage_section_3']['image'] %}
+                    <img class="img-fluid" src="{{ root }}media/{{ siteinfo['theme_params']['homepage_section_3']['image'] }}">
+                {% else %}
+                    <img class="img-fluid" src="{{ root }}assets/img/900-700.jpg">
+                {% endif %}
+            </div>
+            <div class="col-md-6 page-content-lg offset-md-2">
+                <h2>{{ siteinfo['theme_params']['homepage_section_3']['title'] }}</h2>
+                <p>{{ siteinfo['theme_params']['homepage_section_3']['content'] }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 page-content-md">
+                <h2>{{ siteinfo['theme_params']['homepage_section_4']['title'] }}</h2>
+                <p>{{ siteinfo['theme_params']['homepage_section_4']['content'] }}</p>
+            </div>
+            <div class="col-md-4 page-content offset-md-2">
+                {% if siteinfo['theme_params']['homepage_section_4']['image'] %}
+                    <img class="img-fluid" src="{{ root }}media/{{ siteinfo['theme_params']['homepage_section_4']['image'] }}">
+                {% else %}
+                    <img class="img-fluid" src="{{ root }}assets/img/900-700.jpg">
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-light" id="download">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 page-content offset-md-2">
+                <h2 class="download-text">Download {{ siteinfo['title'] }} Now!</h2>
+                <p class="download-text">the latest offical stable release is {{ siteinfo['theme_params']['version'] }}</p>
+                {% if siteinfo['theme_params']['download_buttons'] %}
+                    <div class="download-text" style="margin-top: 35px;">
+                        {% for button in siteinfo['theme_params']['download_buttons'] %}
+                            <a href="{{ button['link'] }}" class="btn btn-{{ button['color'] }}"><i class="fa {{ button['icon'] }}" aria-hidden="true"></i> {{ button['title'] }}</a>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+                <br />
+                <p class="download-text"><a href="https://sourceforge.net/projects/aoi/files/">Other Downloads</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+{% include "footer.html" %}

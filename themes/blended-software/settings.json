@@ -1,0 +1,65 @@
+{
+    "logo": "logo.jpg",
+    "header_image": "ffm-bk.jpg",
+    "version": "1.0.0",
+    "header_buttons": [
+        {
+            "title": "Download Latest",
+            "link": "index.html#download",
+            "color": "danger",
+            "icon": "fa-download"
+        },
+        {
+            "title": "Release Notes",
+            "link": "release_notes.html",
+            "color": "primary",
+            "icon": "fa-book"
+        }
+    ],
+    "download_buttons": [
+        {
+            "title": "Windows",
+            "link": "#",
+            "color": "danger",
+            "icon": "fa-download"
+        },
+        {
+            "title": "macOS",
+            "link": "#",
+            "color": "warning",
+            "icon": "fa-download"
+        },
+        {
+            "title": "Linux",
+            "link": "#",
+            "color": "success",
+            "icon": "fa-download"
+        },
+        {
+            "title": "Release Notes",
+            "link": "release_notes.html",
+            "color": "primary",
+            "icon": "fa-book"
+        }
+    ],
+    "homepage_section_1": {
+        "image": "900-700.jpg",
+        "title": "Open Source Application",
+        "content": "Esse pariatur de eruditionem, ex ut eram voluptate. Id aut irure incididunt, litteris anim possumus, sed veniam duis de senserit, commodo e aliquip. Ea minim familiaritatem, iudicem fugiat duis e cillum, qui cillum ita nulla, mandaremus fugiat ullamco pariatur, hic anim mandaremus adipisicing ne de a elit laboris, laboris quis nostrud vidisse quo admodum nulla noster arbitror quem."
+    },
+    "homepage_section_2": {
+        "image": "900-700.jpg",
+        "title": "Create Interactive Content",
+        "content": "Esse pariatur de eruditionem, ex ut eram voluptate. Id aut irure incididunt, litteris anim possumus, sed veniam duis de senserit, commodo e aliquip. Ea minim familiaritatem, iudicem fugiat duis e cillum, qui cillum ita nulla, mandaremus fugiat ullamco pariatur, hic anim mandaremus adipisicing ne de a elit laboris, laboris quis nostrud vidisse quo admodum nulla noster arbitror quem."
+    },
+    "homepage_section_3": {
+        "image": "900-700.jpg",
+        "title": "Multiple File Formats Supported",
+        "content": "Esse pariatur de eruditionem, ex ut eram voluptate. Id aut irure incididunt, litteris anim possumus, sed veniam duis de senserit, commodo e aliquip. Ea minim familiaritatem, iudicem fugiat duis e cillum, qui cillum ita nulla, mandaremus fugiat ullamco pariatur, hic anim mandaremus adipisicing ne de a elit laboris, laboris quis nostrud vidisse quo admodum nulla noster arbitror quem."
+    },
+    "homepage_section_4": {
+        "image": "900-700.jpg",
+        "title": "User Friendly Drag and Drop Interface",
+        "content": "Esse pariatur de eruditionem, ex ut eram voluptate. Id aut irure incididunt, litteris anim possumus, sed veniam duis de senserit, commodo e aliquip. Ea minim familiaritatem, iudicem fugiat duis e cillum, qui cillum ita nulla, mandaremus fugiat ullamco pariatur, hic anim mandaremus adipisicing ne de a elit laboris, laboris quis nostrud vidisse quo admodum nulla noster arbitror quem."
+    }
+}

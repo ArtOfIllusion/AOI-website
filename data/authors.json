@@ -1,0 +1,14 @@
+{
+    "The Art of Illusion Team": {
+        "bio": "All about you goes here.", 
+        "email": "test@mail.com", 
+        "site": "http://test.com", 
+        "avatar": "userimage.jpg"
+    }, 
+    "John Roper": {
+        "bio": "All about you goes here.", 
+        "email": "test@mail.com", 
+        "site": "http://test.com", 
+        "avatar": "userimage.jpg"
+    }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Download",
+    "link": "index.html#download"
+  },
+  {
+    "title": "Gallery",
+    "link": "gallery.html"
+  },
+  {
+    "title": "Documentation",
+    "link": "documentation.html"
+  },
+  {
+    "title": "Forums",
+    "link": "https://sourceforge.net/p/aoi/discussion/"
+  },
+  {
+    "title": "Bugs",
+    "link": "https://sourceforge.net/p/aoi/bugs/"
+  },
+  {
+    "title": "FAQ",
+    "link": "faq.html"
+  },
+  {
+    "title": "Contribute",
+    "link": "contribute.html"
+  },
+  {
+    "title": "Contact",
+    "link": "contact.html"
+  }
+]

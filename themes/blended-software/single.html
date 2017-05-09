@@ -1,0 +1,24 @@
+{% include "header.html" %}
+{% if siteinfo['theme_params']['header_image'] %}
+    <div class="img-header-sm" style="background-image: url({{ root }}media/{{ siteinfo['theme_params']['header_image'] }});">
+{% else %}
+    <div class="img-header-sm" style="background-image: url({{ root }}assets/img/ffm-bk.jpg);">
+{% endif %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 content">
+                {% if siteinfo['theme_params']['logo'] %}
+                    <img src="{{ root }}media/{{ siteinfo['theme_params']['logo'] }}" class="header-logo-sm">
+                {% else %}
+                    <img src="{{ root }}assets/img/logo.jpg" class="header-logo-sm">
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-light">
+    <div class="container page-content">
+        {{ content.content }}
+    </div>
+</div>
+{% include "footer.html" %}
