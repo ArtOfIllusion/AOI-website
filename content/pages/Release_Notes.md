@@ -4,6 +4,7 @@ subtype: NONE
 title: Release Notes
 subtitle:
 image:
+custom_path: 
 ---
 # Release Notes
 

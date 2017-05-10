@@ -4,6 +4,7 @@ subtype: NONE
 title: Contact
 subtitle:
 image:
+custom_path: 
 ---
 # Contact
 

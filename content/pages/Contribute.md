@@ -4,6 +4,7 @@ subtype: NONE
 title: Contribute
 subtitle:
 image:
+custom_path: 
 ---
 # Contribute to Art of Illusion
 
