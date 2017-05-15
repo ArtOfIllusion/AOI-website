@@ -20,7 +20,7 @@
                 "color": "danger",
                 "icon": "fa-download",
                 "link": "index.html#download",
-                "title": "Download Latest"
+                "title": "Download v{{ siteinfo['theme_params']['version'] }}"
             },
             {
                 "color": "primary",
