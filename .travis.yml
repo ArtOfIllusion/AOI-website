@@ -5,7 +5,7 @@ python:
 install:
  - pip install blended
 script: blended build
-script: tail -n +3 deployed_readme.md > ./build/Readme.md
+after_success: tail -n +3 deployed_readme.md > build/Readme.md
 deploy:
   provider: pages
   skip_cleanup: true
